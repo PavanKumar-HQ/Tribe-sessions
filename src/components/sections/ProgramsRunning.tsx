@@ -38,23 +38,23 @@ export const sessionsList: SessionPlan[] = [
     photoCount: 5,
     allPhotos: [
       {
-        src: "/photos/afan/WhatsApp Image 2026-10-31 at 19.41.49.jpeg",
+        src: "/photos/afan/WhatsApp Image 2026-10-31 at 19.41.49.webp",
         caption: "Afan introducing financial concepts and setting the classroom tone.",
       },
       {
-        src: "/photos/afan/WhatsApp Image 2026-10-31 at 19.41.52.jpeg",
+        src: "/photos/afan/WhatsApp Image 2026-10-31 at 19.41.52.webp",
         caption: "Engaging classroom dialogue on financial fundamentals and mindset.",
       },
       {
-        src: "/photos/afan/WhatsApp Image 2026-10-31 at 19.41.55.jpeg",
+        src: "/photos/afan/WhatsApp Image 2026-10-31 at 19.41.55.webp",
         caption: "Students discussing questions and actively taking notes.",
       },
       {
-        src: "/photos/afan/Pasted 31-10-2026 at 20.42.09.jpg",
+        src: "/photos/afan/Pasted 31-10-2026 at 20.42.09.webp",
         caption: "Interactive reasoning and real-world economics exploration.",
       },
       {
-        src: "/photos/afan/package.jpeg",
+        src: "/photos/afan/package.webp",
         caption: "Curated learning kits and resources prepared for students.",
       },
     ],
@@ -70,11 +70,11 @@ export const sessionsList: SessionPlan[] = [
     photoCount: 2,
     allPhotos: [
       {
-        src: "/photos/jeevan/WhatsApp Image 2026-10-31 at 19.41.49.jpeg",
+        src: "/photos/jeevan/WhatsApp Image 2026-10-31 at 19.41.49.webp",
         caption: "Jeevan facilitating the Smart Budgeting and Digital Payments workshop.",
       },
       {
-        src: "/photos/jeevan/WhatsApp Image 2026-10-31 at 19.41.50.jpeg",
+        src: "/photos/jeevan/WhatsApp Image 2026-10-31 at 19.41.50.webp",
         caption: "Classroom exercises on practical budget allocation and credit card traps.",
       },
     ],
@@ -90,19 +90,19 @@ export const sessionsList: SessionPlan[] = [
     photoCount: 4,
     allPhotos: [
       {
-        src: "/photos/chirag/Pasted 31-10-2026 at 20.41.04.jpg",
+        src: "/photos/chirag/Pasted 31-10-2026 at 20.41.04.webp",
         caption: "Chirag kicking off the Basics of Insurance session.",
       },
       {
-        src: "/photos/chirag/Pasted 31-10-2026 at 20.44.30.jpg",
+        src: "/photos/chirag/Pasted 31-10-2026 at 20.44.30.webp",
         caption: "Exploring risk mitigation, health coverage, and term insurance.",
       },
       {
-        src: "/photos/chirag/Pasted 31-10-2026 at 20.44.57.jpg",
+        src: "/photos/chirag/Pasted 31-10-2026 at 20.44.57.webp",
         caption: "Interactive student case studies analyzing real-world insurance needs.",
       },
       {
-        src: "/photos/chirag/Pasted 31-10-2026 at 20.45.16.jpg",
+        src: "/photos/chirag/Pasted 31-10-2026 at 20.45.16.webp",
         caption: "Q&A and group discussions on policy pitfalls to avoid.",
       },
     ],

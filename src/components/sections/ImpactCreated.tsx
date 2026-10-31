@@ -42,7 +42,7 @@ export function ImpactCreated() {
             className="relative aspect-4/3 rounded-3xl overflow-hidden shadow-2xl"
           >
             <img
-              src="/photos/afan/WhatsApp Image 2026-10-31 at 19.41.55.jpeg"
+              src="/photos/afan/WhatsApp Image 2026-10-31 at 19.41.55.webp"
               alt="School students participating actively"
               className="w-full h-full object-cover"
             />

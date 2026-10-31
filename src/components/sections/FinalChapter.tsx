@@ -1,8 +1,4 @@
 import { motion } from "motion/react";
-import hero from "@/assets/hero-montage.jpg";
-import g1 from "@/assets/gallery-1.jpg";
-import g2 from "@/assets/gallery-2.jpg";
-import g3 from "@/assets/gallery-3.jpg";
 
 export function FinalChapter() {
   return (
@@ -41,10 +37,10 @@ export function FinalChapter() {
 
           <div className="mt-12 flex flex-wrap justify-center gap-3">
             {[
-              "/photos/afan/package.jpeg",
-              "/photos/chirag/Pasted 31-10-2026 at 20.44.57.jpg",
-              "/photos/jeevan/WhatsApp Image 2026-10-31 at 19.41.49.jpeg",
-              "/photos/afan/Pasted 31-10-2026 at 20.42.09.jpg"
+              "/photos/afan/package.webp",
+              "/photos/chirag/Pasted 31-10-2026 at 20.44.57.webp",
+              "/photos/jeevan/WhatsApp Image 2026-10-31 at 19.41.49.webp",
+              "/photos/afan/Pasted 31-10-2026 at 20.42.09.webp"
             ].map((img, i) => (
               <motion.div
                 key={i}
@@ -67,3 +63,4 @@ export function FinalChapter() {
     </section>
   );
 }
+

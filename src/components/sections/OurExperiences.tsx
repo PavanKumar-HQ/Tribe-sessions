@@ -76,7 +76,7 @@ export function OurExperiences() {
           {/* Left Side: Post Image */}
           <div className="w-full md:w-5/12 h-64 md:h-auto relative group bg-slate-50 border-r border-slate-100">
             <img
-              src="/images/setu-cover.jpg"
+              src="/images/setu-cover.webp"
               alt="Pavan's Journey"
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
             />

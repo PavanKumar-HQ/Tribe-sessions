@@ -37,7 +37,7 @@ export function Introduction() {
           className="relative aspect-square md:aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl group"
         >
           <img 
-            src="/photos/afan/WhatsApp Image 2026-10-31 at 19.41.49.jpeg" 
+            src="/photos/afan/WhatsApp Image 2026-10-31 at 19.41.49.webp" 
             alt="Intro to Tribe & Finance session with Afan" 
             className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
           />

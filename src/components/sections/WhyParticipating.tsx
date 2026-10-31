@@ -16,7 +16,7 @@ export function WhyParticipating() {
           </div>
           <div className="relative h-96 lg:h-[32rem] rounded-3xl overflow-hidden shadow-2xl">
             <img 
-              src="/photos/chirag/Pasted 31-10-2026 at 20.41.04.jpg" 
+              src="/photos/chirag/Pasted 31-10-2026 at 20.41.04.webp" 
               alt="School session activities" 
               className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 hover:scale-105"
             />

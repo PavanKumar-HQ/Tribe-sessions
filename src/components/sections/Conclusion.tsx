@@ -6,21 +6,21 @@ const pastEngagements = [
     speaker: "Afan",
     summary:
       "Kicking off with financial fundamentals, debunking myths, and setting an open, welcoming foundation for school learners.",
-    image: "/photos/afan/WhatsApp Image 2026-10-31 at 19.41.52.jpeg",
+    image: "/photos/afan/WhatsApp Image 2026-10-31 at 19.41.52.webp",
   },
   {
     title: "Smart Budgeting & Digital Payments",
     speaker: "Jeevan",
     summary:
       "Demystifying credit cards, UPI, digital payment traps, and constructing bulletproof student budgets.",
-    image: "/photos/jeevan/WhatsApp Image 2026-10-31 at 19.41.50.jpeg",
+    image: "/photos/jeevan/WhatsApp Image 2026-10-31 at 19.41.50.webp",
   },
   {
     title: "Basics of Insurance & Risk",
     speaker: "Chirag",
     summary:
       "Teaching the core principle of risk transfer, life vs health coverage, and safeguarding against unexpected crises.",
-    image: "/photos/chirag/Pasted 31-10-2026 at 20.44.30.jpg",
+    image: "/photos/chirag/Pasted 31-10-2026 at 20.44.30.webp",
   },
 ];
 

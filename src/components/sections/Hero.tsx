@@ -15,14 +15,15 @@ export function Hero({ loaded = true }: { loaded?: boolean }) {
 
   return (
     <section ref={ref} className="relative h-[100svh] overflow-hidden">
-      {/* Background with real event classroom photo, layered gradients, and ambient blur */}
+      {/* Background with real event classroom photo in high-definition WebP */}
       <motion.div style={{ scale }} className="absolute inset-0">
         <img
-          src="/photos/afan/WhatsApp Image 2026-10-31 at 19.41.49.jpeg"
+          src="/photos/afan/hero-hd.webp"
           alt="Classroom financial literacy session"
-          width={1920}
-          height={1080}
+          width={2560}
+          height={3413}
           className="h-full w-full object-cover object-center"
+          loading="eager"
         />
         {/* Modern dark cinematic overlay */}
         <div className="absolute inset-0 bg-gradient-to-b from-navy/85 via-navy/60 to-[#faf5ed]" />

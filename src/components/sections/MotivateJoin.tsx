@@ -20,7 +20,7 @@ export function MotivateJoin() {
           
           <div className="relative h-96 lg:h-[32rem] rounded-3xl overflow-hidden shadow-2xl">
             <img 
-              src="/photos/jeevan/WhatsApp Image 2026-10-31 at 19.41.49.jpeg" 
+              src="/photos/jeevan/WhatsApp Image 2026-10-31 at 19.41.49.webp" 
               alt="School financial sessions with Jeevan" 
               className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 hover:scale-105"
             />
