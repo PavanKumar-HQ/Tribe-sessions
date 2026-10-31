@@ -1,7 +1,7 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { ArrowLeft } from "lucide-react";
 import { activities } from "@/data/content";
-import { accentText } from "@/components/tribe/accent";
+import { accentText, type Accent } from "@/components/tribe/accent";
 import gallery1 from "@/assets/gallery-1.webp";
 import gallery2 from "@/assets/gallery-2.webp";
 import gallery3 from "@/assets/gallery-3.webp";
@@ -53,7 +53,7 @@ function ActivityDetail() {
         <div className="absolute bottom-12 left-0 w-full px-6">
           <div className="mx-auto max-w-5xl">
             <span
-              className={`inline-block rounded-full px-3 py-1 text-xs uppercase tracking-widest font-semibold border bg-white/80 backdrop-blur-md shadow-sm ${accentText[activity.accent]}`}
+              className={`inline-block rounded-full px-3 py-1 text-xs uppercase tracking-widest font-semibold border bg-white/80 backdrop-blur-md shadow-sm ${accentText[activity.accent as Accent]}`}
             >
               {activity.objective}
             </span>
@@ -103,7 +103,7 @@ function ActivityDetail() {
               <h2 className="text-sm uppercase tracking-[0.2em] text-muted-foreground">
                 Student Reaction
               </h2>
-              <p className={`mt-6 font-display text-2xl italic ${accentText[activity.accent]}`}>
+              <p className={`mt-6 font-display text-2xl italic ${accentText[activity.accent as Accent]}`}>
                 {activity.studentReaction}
               </p>
             </div>

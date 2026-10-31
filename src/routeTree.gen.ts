@@ -9,15 +9,9 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
-import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as ActivityIdRouteImport } from './routes/activity.$id'
 
-const SitemapDotxmlRoute = SitemapDotxmlRouteImport.update({
-  id: '/sitemap.xml',
-  path: '/sitemap.xml',
-  getParentRoute: () => rootRouteImport,
-} as any)
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
@@ -31,43 +25,32 @@ const ActivityIdRoute = ActivityIdRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
-  '/sitemap.xml': typeof SitemapDotxmlRoute
   '/activity/$id': typeof ActivityIdRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
-  '/sitemap.xml': typeof SitemapDotxmlRoute
   '/activity/$id': typeof ActivityIdRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
-  '/sitemap.xml': typeof SitemapDotxmlRoute
   '/activity/$id': typeof ActivityIdRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/sitemap.xml' | '/activity/$id'
+  fullPaths: '/' | '/activity/$id'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/sitemap.xml' | '/activity/$id'
-  id: '__root__' | '/' | '/sitemap.xml' | '/activity/$id'
+  to: '/' | '/activity/$id'
+  id: '__root__' | '/' | '/activity/$id'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
-  SitemapDotxmlRoute: typeof SitemapDotxmlRoute
   ActivityIdRoute: typeof ActivityIdRoute
 }
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
-    '/sitemap.xml': {
-      id: '/sitemap.xml'
-      path: '/sitemap.xml'
-      fullPath: '/sitemap.xml'
-      preLoaderRoute: typeof SitemapDotxmlRouteImport
-      parentRoute: typeof rootRouteImport
-    }
     '/': {
       id: '/'
       path: '/'
@@ -87,7 +70,6 @@ declare module '@tanstack/react-router' {
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
-  SitemapDotxmlRoute: SitemapDotxmlRoute,
   ActivityIdRoute: ActivityIdRoute,
 }
 export const routeTree = rootRouteImport
